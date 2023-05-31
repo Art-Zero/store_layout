@@ -1,0 +1,117 @@
+@media (max-width: 1320px) {
+
+    .container {
+        width: 100%;
+    }  
+    
+    .container-about_us {
+        width: 100%;
+    }
+
+    .number_phone {
+        right: -15px;
+        border-bottom-right-radius: 0;
+    }
+
+}
+
+@media (max-width: 1140px) {
+
+    .header-container {
+        align-items: flex-start;
+    }
+
+    .header-container.main {
+        align-items: center;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-list.main {
+        display: flex;
+    }
+    
+    .nav-btn {
+        display: block;
+    }
+    
+    .nav.open .nav-list {
+        background-color: #222;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 46px;
+        padding: 37px 30px;
+        z-index: 5;
+    }
+
+    .nav.open .nav-btn {
+        position: fixed;
+        top: 20px;
+        right: 25px;
+        width: 41px;
+        z-index: 9;
+    }
+
+    .number_phone {
+        display: none;
+    }
+
+    .number_phone.main {
+        display: flex;
+    }
+
+    .number_phone_reverse {
+        display: flex;
+        top: 75px;
+    }
+
+    .number_phone_reverse.main {
+        display: none;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .header-container {
+        row-gap: calc(10vh);
+    }
+
+    .top-header {
+        justify-content: center;
+    }
+
+    .number_phone {
+        display: none;
+    }
+
+    .number_phone.main {
+        display: none;
+    }
+
+    .number_phone_reverse {
+        display: flex;
+    }
+
+    .number_phone_reverse.main {
+        display: flex;
+        top: 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .full_text_footer {
+        flex-direction: column;
+    }
+
+}
